@@ -1,0 +1,26 @@
+{
+    "name": "netgamer7/resizer-demo",
+    "description": "Demo for predis PHP library",
+    "type": "project",
+    "keywords": [
+        "demo",
+        "redis",
+        "worker",
+        "background"
+    ],
+    "homepage": "https://github.com/netgamer7/resizer-demo",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Roger Ward",
+            "email": "rogerw@gmail.com",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/netgamer7/resizer-demo/issues"
+    },
+    "require": {
+        "php": ">=7.0.10"
+    }
+}
