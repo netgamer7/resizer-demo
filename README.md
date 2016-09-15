@@ -12,4 +12,4 @@ Email me with any questions or submit pull requests with any fixes/suggestions.
 
 ## License
 
-GPL-2 - see [LICENSE](LICENSE)
+GPL-2 - see [LICENSE](LICENSE.md)
