@@ -1,0 +1,17 @@
+[webservers]
+web
+
+[redisservers]
+redis
+
+[workerservers]
+worker[1:2]
+
+[all_groups:children]
+webservers
+redisservers
+workerservers
+
+[all_groups:vars]
+ansible_become = yes
+ansible_gather_facts = no

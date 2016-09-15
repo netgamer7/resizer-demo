@@ -1,0 +1,11 @@
+- hosts: all
+  gather_facts: False
+  pre_tasks:
+   - name: 'reset resolvconf'
+     raw: sudo dpkg-reconfigure -f noninteractive resolvconf
+   - name: 'install python2'
+     raw: sudo apt-get -y install python-simplejson
+
+- include: webservers.yml
+- include: redisservers.yml
+- include: workerservers.yml

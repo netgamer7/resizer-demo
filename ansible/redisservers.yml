@@ -1,0 +1,6 @@
+---
+# file: redisservers.yml
+- hosts: redis
+  roles:
+    - common
+    - redis
